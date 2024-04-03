@@ -3,6 +3,7 @@ import "./MainView.scss"; // import a stylesheet
 
 // component properties ... the interface name must start with I prefix and end with Properties suffix
 export interface IMainViewProperties {
+    showFlyoutButtonClicked(useFlyoutBase: boolean): void;
 }
 
 // component methods that can be called on .NET  ... the interface name must start with I prefix and end with Behaviors suffix
@@ -14,10 +15,14 @@ export default class MainView extends React.Component<IMainViewProperties> imple
         super(props);
     }
 
+
+
     public render(): JSX.Element {
         return (
             <div className="wrapper">
                 <div className="title">Sample</div>
+                <button className="showFlyout" onClick={() => this.props.showFlyoutButtonClicked(false)}>Show Flyout using FlyoutPopup</button>
+                <button className="showFlyout" onClick={() => this.props.showFlyoutButtonClicked(true)}>Show Flyout using FlyoutBase</button>
             </div>
         );
     }
