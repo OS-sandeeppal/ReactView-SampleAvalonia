@@ -49,7 +49,7 @@ namespace Sample.Avalonia {
             });
 
             CreateTab();
-            
+
 #if DEBUG
             this.AttachDevTools(new KeyGesture(Key.F5));
 #endif
@@ -66,8 +66,6 @@ namespace Sample.Avalonia {
         private TabView SelectedView => (TabView) tabs.SelectedContent;
 
         private void OnNewTabClick(object sender, RoutedEventArgs e) => CreateTab();
-
-        private void OnToggleHideCompletedTasksMenuItemClick(object sender, RoutedEventArgs e) => SelectedView.ToggleHideCompletedTasks();
 
         private void OnToggleThemeStyleSheetMenuItemClick(object sender, RoutedEventArgs e) => Settings.IsLightTheme = !Settings.IsLightTheme;
 

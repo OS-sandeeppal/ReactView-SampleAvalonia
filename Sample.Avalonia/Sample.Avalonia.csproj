@@ -18,10 +18,7 @@
 
   <ItemGroup>
     <AvaloniaResource Include="App.xaml" />
-    <EmbeddedResource Include="MainView\Tasks.png" />
     <AvaloniaResource Include="MainWindow.xaml" />
-    <EmbeddedResource Include="Users\User1.png" />
-    <EmbeddedResource Include="Users\User2.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,6 +32,7 @@
     <PackageReference Include="Avalonia.ReactiveUI" />
     <PackageReference Include="Avalonia.Themes.Fluent" />
     <PackageReference Include="NLog" />
+    <PackageReference Include="ReactViewControl-Avalonia" />
     <PackageReference Include="ViewGenerator">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -44,10 +42,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="WebViewControl-Avalonia$(WebViewPackageSuffix)" />
-  </ItemGroup>
-  
-  <ItemGroup>
-    <ProjectReference Include="..\ReactViewControl.Avalonia\ReactViewControl.Avalonia.csproj" />
   </ItemGroup>
 
   <ItemGroup>
