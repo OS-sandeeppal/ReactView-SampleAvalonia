@@ -5,19 +5,20 @@ Using this framework you can build .NET desktop applications that run on Windows
 
 ## Documentation
 
-See the [Sample.Avalonia](Sample.Avalonia) project for an example of a Task List application that showcases most of the functionalities provided by this framework.
+See this is a fork within a simpler version of the [Sample.Avalonia](Sample.Avalonia), focused in the Sample Avalonia cs project only and consuming ReactView related dependencies through packages. That way it can be used as a boiler plate for simple tests.
 
 <p align="center">
   <img src="docs/images/screenshot.png" height="400">
 </p>
 
 ## Getting Started
+* You need to have .NET SDK installed with at least version 6 to properly use this boilerplate.
 
-1) Add the ReactViewControl-Avalonia (or ReactViewControl-WPF) and ViewGenerator Nuget packages to your WPF/Avalonia project.
-2) Follow [these](ViewGenerator/readme.txt "Instructions") intructions 
+1) To build/run, just run the dotnet run or dotnet build commands in the repository root. Alternativaly, open the project solution in your IDE of Choice and hit run
+1) Follow [these](ViewGenerator/readme.txt "Instructions") intructions if you want to create new views.
 3) For more details check the Sample project.
 
-## Releases
+## ReactView Releases
 Stable binaries are released on NuGet, and contain everything you need to start creating ReactView based apps.
 - [![ReactViewControl-Avalonia](https://img.shields.io/nuget/v/ReactViewControl-Avalonia.svg?style=flat&label=ReactView-Avalonia)](https://www.nuget.org/packages/ReactViewControl-Avalonia/)
 - [![ReactViewControl-WPF](https://img.shields.io/nuget/v/ReactViewControl-WPF.svg?style=flat&label=ReactView-WPF)](https://www.nuget.org/packages/ReactViewControl-WPF/)
@@ -29,6 +30,7 @@ ViewGenerator is the companion tool of the ReactView framework which generates t
 
 ## Build pre-requisites
 - NodeJS
+- .NET 6+
 
 ## ViewPacker
 
