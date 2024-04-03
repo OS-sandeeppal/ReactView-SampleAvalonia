@@ -7,6 +7,10 @@ Using this framework you can build .NET desktop applications that run on Windows
 
 See this is a fork within a simpler version of the [Sample.Avalonia](Sample.Avalonia), focused in the Sample Avalonia cs project only and consuming ReactView related dependencies through packages. That way it can be used as a boiler plate for simple tests.
 
+<p align="center">
+  <img src="docs/images/sample-screenshot.png" height="400">
+</p>
+
 ## Getting Started
 * You need to have .NET SDK installed with at least version 6 to properly use this boilerplate.
 
