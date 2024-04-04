@@ -32,7 +32,7 @@
     <PackageReference Include="Avalonia.ReactiveUI" />
     <PackageReference Include="Avalonia.Themes.Fluent" />
     <PackageReference Include="NLog" />
-    <PackageReference Include="ReactViewControl-Avalonia" />
+    <PackageReference Include="ReactViewControl-Avalonia$(PackageSuffix)" />
     <PackageReference Include="ViewGenerator">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
