@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>$(DotnetVersion)</TargetFramework>
     <RollForward>Major</RollForward>
-    <Configurations>Debug;Release;ReleaseAvalonia;ReleaseWPF</Configurations>
+    <Configurations>Debug;Release;ReleaseAvalonia</Configurations>
     <RuntimeIdentifiers>osx-x64;win-x64;osx-arm64;win-arm64</RuntimeIdentifiers>
   </PropertyGroup>
 
@@ -55,6 +55,4 @@
       <Visible>True</Visible>
     </None>
   </ItemGroup>
-
-  <Import Project="Build\GenerateWebpackDevServerScript.targets" />
 </Project>
