@@ -2,15 +2,7 @@
   <PropertyGroup>
     <DotnetVersion>net6.0</DotnetVersion>
     <Platforms>x64;ARM64</Platforms>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
-    <Version>2.120.102</Version>
-    <Authors>OutSystems</Authors>
-    <Product>ReactView</Product>
-    <Copyright>Copyright © OutSystems 2023</Copyright>
-    <PackageProjectUrl>https://github.com/OutSystems/ReactView</PackageProjectUrl>
-    <PackageOutputPath>$(MSBuildProjectDirectory)\..\nuget</PackageOutputPath>
-
+    
     <!-- File with mtime of last successful npm install -->
     <NpmInstallStampFile>.npm-install-stamp</NpmInstallStampFile>
   </PropertyGroup>
