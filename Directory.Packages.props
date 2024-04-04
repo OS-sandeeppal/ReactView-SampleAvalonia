@@ -20,6 +20,7 @@
     <PackageVersion Include="Avalonia.Themes.Fluent" Version="$(AvaloniaVersion)" />
     <PackageVersion Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
     <PackageVersion Include="ReactViewControl-Avalonia" Version="2.120.102" />
+    <PackageVersion Include="ReactViewControl-Avalonia-ARM64" Version="2.120.102" />
     <PackageVersion Include="WebViewControl-Avalonia" Version="$(WebViewVersion)" />
     <PackageVersion Include="WebViewControl-Avalonia-ARM64" Version="$(WebViewVersion)" />
     <PackageVersion Include="ViewGenerator" Version="1.1.43" />
