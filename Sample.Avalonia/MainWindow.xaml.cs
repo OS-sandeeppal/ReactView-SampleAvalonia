@@ -14,9 +14,12 @@ namespace Sample.Avalonia {
         private int counter = 1;
 
         private TabControl tabs;
+        
+        private TooltipService tooltipService;
 
         public MainWindow() {
             AvaloniaXamlLoader.Load(this);
+            tooltipService = new TooltipService();
 
             tabs = this.FindControl<TabControl>("tabs");
 
@@ -56,10 +59,16 @@ namespace Sample.Avalonia {
         }
 
         public void CreateTab() {
-            ((IList)tabs.Items).Add(new TabItem() {
-                Header = "View " + counter,
-                Content = new TabView(counter)
+            var item = new TabItem() { Header = "View " + counter, Content = new TabView(counter), };
+            item.PointerEntered += ((sender, args) => {
+                tooltipService.ShowTooltip(item, item.Header?.ToString() + " testing it for position issue", args.GetPosition(this).X + 10, args.GetPosition(this).Y + 10);
             });
+            
+            item.PointerExited += ((sender, args) => {
+                tooltipService.HideTooltip();
+            });
+            ((IList)tabs.Items).Add(item);
+            
             counter++;
         }
 

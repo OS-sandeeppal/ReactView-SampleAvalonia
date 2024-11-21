@@ -1,6 +1,6 @@
 <Project>
   <PropertyGroup>
-    <DotnetVersion>net6.0</DotnetVersion>
+    <DotnetVersion>net8.0</DotnetVersion>
     <Platforms>x64;ARM64</Platforms>
     
     <!-- File with mtime of last successful npm install -->
@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <AvaloniaVersion>11.0.9</AvaloniaVersion>
-    <WebViewVersion>2.121.101</WebViewVersion>
+    <AvaloniaVersion>11.2.0</AvaloniaVersion>
+    <WebViewVersion>3.120.7</WebViewVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Platform)' == '' or '$(Platform)' == 'x64'">

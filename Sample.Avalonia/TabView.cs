@@ -8,9 +8,19 @@ namespace Sample.Avalonia {
         protected override Type StyleKeyOverride => typeof(ContentControl);
 
         private MainView mainView;
+        private TooltipService tooltipService;
 
         public TabView(int id) {
+            tooltipService = new TooltipService();
             mainView = new MainView();
+            mainView.MouseOver += (clientX, clientY) => {
+                tooltipService.ShowTooltip(this, "This is test tooltip", clientX, clientY);
+            };
+
+            mainView.MouseLeave += () => {
+                tooltipService.HideTooltip();
+            };
+            
             mainView.Focusable = true;
             Content = mainView;
         }
