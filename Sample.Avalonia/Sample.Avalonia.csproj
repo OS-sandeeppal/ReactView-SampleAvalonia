@@ -34,14 +34,6 @@
     <PackageReference Include="Avalonia.Themes.Fluent" />
     <PackageReference Include="NLog" />
     <PackageReference Include="ReactViewControl-Avalonia$(PackageSuffix)" />
-    <PackageReference Include="ViewGenerator">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-    <PackageReference Include="ViewGeneratorCore">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
     <PackageReference Include="WebViewControl-Avalonia$(PackageSuffix)" />
   </ItemGroup>
 
