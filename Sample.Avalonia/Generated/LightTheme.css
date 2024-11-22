@@ -1,0 +1,16 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../packages/viewpacker/1.1.5/tools/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../packages/viewpacker/1.1.5/tools/node_modules/resolve-url-loader/index.js!../packages/viewpacker/1.1.5/tools/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./Styles/LightTheme.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  color: black;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2VuZXJhdGVkL0xpZ2h0VGhlbWUuY3NzIiwibWFwcGluZ3MiOiI7OztBQUFBO0VBQ0k7RUFDQTtFQUNBO0FBQ0o7O0FBRUE7RUFDSTtFQUNBO0VBQ0E7QUFDSixDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc2FtcGxlLmF2YWxvbmlhLy4vU3R5bGVzL0xpZ2h0VGhlbWUuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJodG1sLCBib2R5IHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG59XG5cbmJvZHkge1xuICAgIGZvbnQtZmFtaWx5OiBzYW5zLXNlcmlmO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlc21va2U7XG4gICAgY29sb3I6IGJsYWNrO1xufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/

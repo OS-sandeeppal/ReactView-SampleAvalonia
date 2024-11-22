@@ -1,0 +1,16 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../packages/viewpacker/1.1.5/tools/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../packages/viewpacker/1.1.5/tools/node_modules/resolve-url-loader/index.js!../packages/viewpacker/1.1.5/tools/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./Styles/DarkTheme.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************/
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2VuZXJhdGVkL0RhcmtUaGVtZS5jc3MiLCJtYXBwaW5ncyI6Ijs7O0FBQUE7RUFDSTtFQUNBO0VBQ0E7QUFDSjs7QUFFQTtFQUNJO0VBQ0E7RUFDQTtBQUNKLEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zYW1wbGUuYXZhbG9uaWEvLi9TdHlsZXMvRGFya1RoZW1lLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiaHRtbCwgYm9keSB7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIG1hcmdpbjogMDtcbiAgICBwYWRkaW5nOiAwO1xufVxuXG5ib2R5IHtcbiAgICBmb250LWZhbWlseTogc2Fucy1zZXJpZjtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBjb2xvcjogd2hpdGU7XG59XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/

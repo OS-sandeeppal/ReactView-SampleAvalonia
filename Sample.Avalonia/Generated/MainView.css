@@ -1,0 +1,33 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../packages/viewpacker/1.1.5/tools/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!../packages/viewpacker/1.1.5/tools/node_modules/resolve-url-loader/index.js!../packages/viewpacker/1.1.5/tools/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[3]!./MainView/MainView.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************/
+body {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  overflow-y: hidden;
+}
+
+.title {
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  margin: 10px;
+}
+
+button {
+  padding: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input {
+  display: flex;
+  float: right;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiR2VuZXJhdGVkL01haW5WaWV3LmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQUNKOztBQUVBO0VBQ0k7RUFDQTtBQUNKOztBQUVBO0VBQ0k7QUFDSjs7QUFFQTtFQUNJO0VBQ0E7RUFDQTtBQUNKOztBQUVBO0VBQ0k7RUFDQTtBQUNKLEMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9WaWV3cy8uL01haW5WaWV3L01haW5WaWV3LnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gICAgaGVpZ2h0OiAxMDB2aDtcbiAgICB3aWR0aDogMTAwdnc7XG4gICAgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XG4gICAgYmFja2dyb3VuZC1zaXplOiBjb250YWluO1xuICAgIG92ZXJmbG93LXk6IGhpZGRlbjtcbn1cblxuLnRpdGxlIHtcbiAgICBmb250LXNpemU6IGxhcmdlO1xuICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG59XG5cbi53cmFwcGVyIHtcbiAgICBtYXJnaW46IDEwcHg7XG59XG5cbmJ1dHRvbiB7XG4gICAgcGFkZGluZzogNXB4O1xuICAgIG1hcmdpbi1sZWZ0OiA1cHg7XG4gICAgbWFyZ2luLXJpZ2h0OiA1cHg7XG59XG5cbmlucHV0IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsb2F0OiByaWdodDtcbn0iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=*/
