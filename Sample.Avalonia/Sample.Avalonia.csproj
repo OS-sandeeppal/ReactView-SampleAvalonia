@@ -48,4 +48,21 @@
       <Visible>True</Visible>
     </None>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Generated\DarkTheme.css" />
+    <EmbeddedResource Include="Generated\DarkTheme.css" />
+    <None Remove="Generated\LightTheme.css" />
+    <EmbeddedResource Include="Generated\LightTheme.css" />
+    <None Remove="Generated\MainView.css" />
+    <EmbeddedResource Include="Generated\MainView.css" />
+    <None Remove="Generated\MainView.js" />
+    <EmbeddedResource Include="Generated\MainView.js" />
+    <None Remove="Generated\chunk_90720148271e22d9457d.js" />
+    <EmbeddedResource Include="Generated\chunk_90720148271e22d9457d.js" />
+    <None Remove="Generated\MainView.css.entry" />
+    <EmbeddedResource Include="Generated\MainView.css.entry" />
+    <None Remove="Generated\MainView.js.entry" />
+    <EmbeddedResource Include="Generated\MainView.js.entry" />
+  </ItemGroup>
 </Project>
