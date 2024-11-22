@@ -30,7 +30,7 @@ ViewGenerator is the companion tool of the ReactView framework which generates t
 
 ## Build pre-requisites
 - NodeJS
-- .NET 6+
+- .NET 8+
 
 ## ViewPacker
 
